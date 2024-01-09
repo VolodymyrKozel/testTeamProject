@@ -7,11 +7,23 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/testTeamProject/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/testTeamProject/assets/index-112962c6.css">
+    <link rel="stylesheet" href="/testTeamProject/assets/index-33a74962.css">
   </head>
   <body>
     <header class="header">
-  <button type="button" class="header-menu-btn js-open-menu"></button>
+  <svg class="btn-sign-icon" width="127" height="20">
+    <use href="/testTeamProject/assets/icons-8920830f.svg#icon-logo"></use>
+  </svg>
+  <button class="btn-sign" type="button" aria-label="sign in button">
+    <svg class="btn-sign-icon" width="16" height="16">
+      <use href="/testTeamProject/assets/icons-8920830f.svg#icon-camera"></use>
+    </svg>
+  </button>
+  <button class="menu-btn" type="button" aria-label="Open menu button">
+    <svg class="menu-btn-icon" width="32" height="32">
+      <use href="/testTeamProject/assets/icons-8920830f.svg#icon-hamburger"></use>
+    </svg>
+  </button>
 </header>
 
 <div class="mobile-menu js-menu-container">
@@ -23,56 +35,19 @@
 
   <ul class="mobile-menu-list">
     <li class="mobile-menu-item">
-      <a class="mobile-menu-link current header-link" href="">Studio</a>
+      <a class="mobile-menu-link current header-link" href="#about">About us</a>
     </li>
     <li class="mobile-menu-item">
-      <a class="mobile-menu-link header-link" href="">Portfolio</a>
+      <a class="mobile-menu-link header-link" href="#courses">Our courses</a>
     </li>
     <li class="mobile-menu-item">
-      <a class="mobile-menu-link header-link" href="">Contacts</a>
-    </li>
-  </ul>
-
-  <ul class="mobile-menu-contacts">
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-contact accent" href="tel:+110001111111"
-        >+11 (000) 111-11-11</a
-      >
+      <a class="mobile-menu-link header-link" href="#mentors">Our mentors</a>
     </li>
     <li class="mobile-menu-item">
-      <a class="mobile-menu-contact" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
+      <a class="mobile-menu-link header-link" href="#reviews">Reviews</a>
     </li>
-  </ul>
-  <ul class="mobile-menu-socials">
-    <li class="mobile-menu-social">
-      <a href="https://www.instagram.com/" target="_blank" class="link">
-        <svg class="social-link-icon" height="24" width="24">
-          <use href="./images/icons.svg#icon-instagram"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="mobile-menu-social">
-      <a href="https://www.twitter.com/" target="_blank" class="link">
-        <svg class="social-link-icon" height="24" width="24">
-          <use href="./images/icons.svg#icon-twitter"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="mobile-menu-social">
-      <a href="https://www.facebook.com/" target="_blank" class="link">
-        <svg class="social-link-icon" height="24" width="24">
-          <use href="./images/icons.svg#icon-facebook"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="mobile-menu-social">
-      <a href="https://www.linkedin.com/" target="_blank" class="link">
-        <svg class="social-link-icon" height="24" width="24">
-          <use href="./images/icons.svg#icon-linkedin"></use>
-        </svg>
-      </a>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link header-link" href="#contacts">contacts</a>
     </li>
   </ul>
 </div>
@@ -82,7 +57,6 @@
       
       <!-- Yana -->
       <section class="about">
-  <img src="/testTeamProject/assets/online-courses-f75e8e4e.jpg" alt="" />
 </section>
 
     </main>
