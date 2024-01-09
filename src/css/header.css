@@ -1,7 +1,15 @@
-.header-menu-btn {
-  width: 25px;
-  height: 25px;
-  background-color: teal;
+.btn-sign {
+  display: block;
+  padding: 8px;
+}
+.btn-sign-icon {
+  fill: rgba(190, 166, 158, 0.4);
+}
+.menu-btn {
+  display: block;
+}
+.menu-btn-icon {
+  stroke: #fff;
 }
 
 .mobile-menu {
