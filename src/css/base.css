@@ -35,7 +35,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: DM Sans, sans-serif;
   color: #fff;
   background-color: #121212;
 }
@@ -73,7 +73,7 @@ body {
 @media screen and (min-width: 1280px) {
   .container {
     /* Desktop devices */
-    max-width: 1080px;
+    max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -82,6 +82,7 @@ body {
 @media screen and (min-width: 1440px) {
   .container {
     /* Desktop devices */
-    max-width: 1240px;
+    max-width: 1440px;
   }
 }
+
